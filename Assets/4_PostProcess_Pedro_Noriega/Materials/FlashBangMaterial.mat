@@ -39,6 +39,6 @@ Material:
     m_Ints: []
     m_Floats:
     - _DrunkAmount: 1
-    - _FlashAmount: 0.35489628
+    - _FlashAmount: 0
     m_Colors: []
   m_BuildTextureStacks: []
