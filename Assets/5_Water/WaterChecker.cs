@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ball : MonoBehaviour
+public class WaterChecker: MonoBehaviour
 {
     [SerializeField] private Material mat; // arrastrá el epicentro en el Inspector
 
