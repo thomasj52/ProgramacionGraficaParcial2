@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuPrincipal.unity
+    guid: b4b00516e114a9b47965208d22e38271
+  - enabled: 1
+    path: Assets/Scenes/Punto-1-GalbanBardeci.unity
+    guid: eebebce27399a2d46b6f11bacb260de2
+  - enabled: 1
+    path: Assets/Scenes/Punto-3-GalbanBardeci.unity
+    guid: 0c56a2a8113b8cc4ead22d9a95917371
+  - enabled: 1
+    path: Assets/Scenes/Fin.unity
+    guid: eb2cf6ed0a22cfb409d282a095732880
   m_configObjects: {}
