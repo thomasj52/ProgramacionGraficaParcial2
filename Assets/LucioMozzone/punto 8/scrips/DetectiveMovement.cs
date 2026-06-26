@@ -10,6 +10,12 @@ public class DetectiveMovement : MonoBehaviour
     private Camera playerCamera;
     private float verticalRotation = 0f;
 
+    [SerializeField] private Material material;
+    [SerializeField] private GameObject DetectivesPlanes;
+    [SerializeField] private Shader readerShader;
+    [SerializeField] private Shader normalShader;
+    
+
     void Start()
     {
         playerCamera = Camera.main;
@@ -34,5 +40,16 @@ public class DetectiveMovement : MonoBehaviour
 
         Vector3 move = transform.right * horizontal + transform.forward * vertical;
         transform.Translate(move * speed * Time.deltaTime, Space.World);
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            DetectivesPlanes.SetActive(false);
+            material.shader = normalShader;
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            DetectivesPlanes.SetActive(true);
+            material.shader = readerShader;
+        }
     }
 }
