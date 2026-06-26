@@ -221,8 +221,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: df344a6d94229dc40b7b8ea4470a7bd1, type: 3}
-  limiteIzquierdo: -2
-  limiteDerecho: 2
+  limiteIzquierdo: -0.9
+  limiteDerecho: 0.9
   velocidad: 2
   objetivo: {fileID: 0}
 --- !u!1 &319026437

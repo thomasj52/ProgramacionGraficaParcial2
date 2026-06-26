@@ -14,6 +14,7 @@ public class DetectiveMovement : MonoBehaviour
     [SerializeField] private GameObject DetectivesPlanes;
     [SerializeField] private Shader readerShader;
     [SerializeField] private Shader normalShader;
+    [SerializeField] private Manager manager;
     
 
     void Start()
@@ -44,12 +45,12 @@ public class DetectiveMovement : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             DetectivesPlanes.SetActive(false);
-            material.shader = normalShader;
+            manager.isDetectiveOn = false;
         }
         if (Input.GetMouseButtonDown(1))
         {
             DetectivesPlanes.SetActive(true);
-            material.shader = readerShader;
+            manager.isDetectiveOn = true;
         }
     }
 }
