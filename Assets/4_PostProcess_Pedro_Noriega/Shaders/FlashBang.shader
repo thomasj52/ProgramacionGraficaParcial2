@@ -109,7 +109,7 @@ Shader "FlashBang"
 }
 /*ASEBEGIN
 Version=18900
-300;73;1178;713;1128.931;490.7125;1.3;True;False
+343;73;1013;498;1103.894;332.6307;1.3;True;False
 Node;AmplifyShaderEditor.ColorNode;2;-531.9279,-36.58682;Inherit;False;Constant;_FlashColor;_FlashColor;1;0;Create;True;0;0;0;False;0;False;1,1,1,0.003921569;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;3;-562.9279,157.4132;Inherit;False;Property;_FlashAmount;_FlashAmount;1;0;Create;True;0;0;0;False;0;False;0;0;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SamplerNode;1;-588.617,-245.2709;Inherit;True;Property;_MainTex;_MainTex;0;0;Fetch;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
@@ -120,4 +120,4 @@ WireConnection;4;1;2;0
 WireConnection;4;2;3;0
 WireConnection;0;0;4;0
 ASEEND*/
-//CHKSM=1149972BA31237ADAF72CFF40CFA30C446904B35
+//CHKSM=7679F56010AAABD6FD3C7D3048437F8DA63D1F78

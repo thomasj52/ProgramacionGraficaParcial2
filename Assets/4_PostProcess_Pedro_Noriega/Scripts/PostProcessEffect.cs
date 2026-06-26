@@ -7,19 +7,19 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class PostProcessEffect : MonoBehaviour
 {
-    [Tooltip("Material que usa el shader del efecto (lo creás en Amplify)")]
+    [Tooltip("material que usa el shader del efecto")]
     public Material effectMaterial;
 
     private void OnRenderImage(RenderTexture src, RenderTexture dest)
     {
-        // Si no hay material, dejamos pasar la imagen sin tocar
+        // si no hay material, dejamos pasar la imagen sin tocar
         if (effectMaterial == null)
         {
             Graphics.Blit(src, dest);
             return;
         }
 
-        // Pasamos la imagen por el material y la mostramos
+        // pasamos la imagen por el material y la mostramos
         Graphics.Blit(src, dest, effectMaterial);
     }
 }

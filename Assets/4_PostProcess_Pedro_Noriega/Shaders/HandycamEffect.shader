@@ -153,7 +153,7 @@ Shader "HandycamEffect"
 }
 /*ASEBEGIN
 Version=18900
-300;73;1178;621;416.1349;-766.4565;1;True;False
+343;73;1003;514;3901.958;1730.278;7.258432;True;False
 Node;AmplifyShaderEditor.CommentaryNode;19;-664.14,721.0271;Inherit;False;1609.126;433.3561;Grupo1 - Temblor;14;1;15;14;5;10;16;13;11;9;6;12;17;18;8;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.SimpleTimeNode;8;-598.9944,798.6448;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;6;-614.14,896.3802;Inherit;False;Constant;_ShakeSpeed;_ShakeSpeed ;0;0;Create;True;0;0;0;False;0;False;8;0;0;0;0;1;FLOAT;0
@@ -233,4 +233,4 @@ WireConnection;38;0;31;0
 WireConnection;38;1;37;0
 WireConnection;0;0;38;0
 ASEEND*/
-//CHKSM=B08734497880DB959F07605B55AF530B22FFCF6C
+//CHKSM=FB956860AC52478EEDC89F5EB38AA7DC39C2E8B9
