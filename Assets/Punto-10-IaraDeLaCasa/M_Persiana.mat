@@ -87,6 +87,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorAmarillo: {r: 1, g: 0.9, b: 0.6, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _LightColor: {r: 0.31431827, g: 0.14738041, b: 0.13536675, a: 1}
+    - _LightColor: {r: 0.25460017, g: 0.12537901, b: 0.13844694, a: 1}
     - _Vector0: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
