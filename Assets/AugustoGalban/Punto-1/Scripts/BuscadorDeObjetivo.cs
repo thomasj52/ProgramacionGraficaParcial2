@@ -26,6 +26,7 @@ public class BuscadorDeObjetivo : MonoBehaviour
     {
         if (camara == null)
             camara = Camera.main;
+
     }
 
     private void Start()
@@ -102,11 +103,11 @@ public class BuscadorDeObjetivo : MonoBehaviour
     {
         camaraCaptura.transform.position = camaraJugador.transform.position;
         camaraCaptura.transform.rotation = camaraJugador.transform.rotation;
-        camaraCaptura.fieldOfView = camaraJugador.fieldOfView; 
+        camaraCaptura.fieldOfView = camaraJugador.fieldOfView;
+        camaraCaptura.clearFlags = camaraJugador.clearFlags;
+        camaraCaptura.backgroundColor = camaraJugador.backgroundColor;
 
-        camaraCaptura.gameObject.SetActive(true);
         camaraCaptura.Render();
-        camaraCaptura.gameObject.SetActive(false);
 
         StartCoroutine(MostrarFotoTemporalmente());
     }
