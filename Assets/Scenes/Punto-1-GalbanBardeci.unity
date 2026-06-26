@@ -410,6 +410,11 @@ MonoBehaviour:
   distanciaMaxima: 50
   camaraCaptura: {fileID: 1452273621}
   camaraJugador: {fileID: 1643991097}
+  fovNormal: 60
+  fovZoom: 6
+  velocidadZoom: 3
+  esperaAntesDeFoto: 0.5
+  esperaEnZoom: 2
   panelFoto: {fileID: 926791009}
 --- !u!1 &660898226
 GameObject:
@@ -787,15 +792,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabsVariados:
-  - {fileID: 654480961931053983, guid: 8e5a48ca9f6319c4d9d11020eed75666, type: 3}
-  - {fileID: 9064803264367679226, guid: 83be5b304521b8a41915e730f9fb1c54, type: 3}
-  - {fileID: 6479085957916850631, guid: ffed5aba7a5eb9340b9fb434b8d06685, type: 3}
-  - {fileID: 4516736706334444938, guid: 0c51723e2dc60604996e0f8b403535ef, type: 3}
-  cantidadObjetos: 50
-  areaSpawn: {x: 10, y: 6, z: 1}
-  distanciaMinima: 1.5
-  escalaMin: 0.8
-  escalaMax: 2
+  - {fileID: 7090000081690452566, guid: 06fb90faaf9d6e84dbf735b921683aee, type: 3}
+  - {fileID: 5882146166323527522, guid: a964a0024cdd6d34b8d346175b871735, type: 3}
+  - {fileID: 8275723797897300795, guid: aafcdaa9bbaa8314486ef45d206d53f2, type: 3}
+  - {fileID: 7906553332033652429, guid: 89514ebb77d03ae4f84d0807ff36f5d7, type: 3}
+  - {fileID: 8599300373656053707, guid: be4996a9fed9159418c877804692a6da, type: 3}
+  - {fileID: 5625387266230861447, guid: 26b593a9a635ff242a9524610676cf55, type: 3}
+  - {fileID: 113239210557073384, guid: 8b3831cc532b4d444a5b4b1b4e5fff66, type: 3}
+  - {fileID: 4895867200300690160, guid: 05c8ba22f5807334d8c4ca8455912c5b, type: 3}
+  - {fileID: 4080546556539267070, guid: 2163d75a580772d46abc4ce750759f0a, type: 3}
+  - {fileID: 5305367537970599588, guid: bc74e538d58fa504e92c2ec6d2399268, type: 3}
+  - {fileID: 2345995309482068127, guid: 24c7ff6c86c74dd4797d8c6aba99d8af, type: 3}
+  - {fileID: 95665881156255514, guid: ebe29d86d3d6fc148bbb2a17c46d9d67, type: 3}
+  - {fileID: 6580800482100477358, guid: 638a187ced14e0842b4c9657cd466daa, type: 3}
+  - {fileID: 6896672087406351890, guid: 0985e0712e110e4458d5c0d618060318, type: 3}
+  - {fileID: 585859222252582026, guid: c23b9ebbc4794a3439bcacd218645413, type: 3}
+  - {fileID: 5374478143740284073, guid: 0f8d3bbcff1b2e64c8bdb7452180ec1a, type: 3}
+  - {fileID: 6673411968857747448, guid: ec733d3cce920b04188b124244cdb325, type: 3}
+  - {fileID: 3851199129449591006, guid: ec3a378c29195644d8017b99e9e41ee9, type: 3}
+  cantidadObjetos: 200
+  areaSpawn: {x: 7, y: 3.5, z: 1}
+  escalaMin: 1
+  escalaMax: 2.5
   velocidadRotMin: 10
   velocidadRotMax: 90
   textoObjetivo: {fileID: 1352037637}
@@ -807,7 +825,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425018812}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
