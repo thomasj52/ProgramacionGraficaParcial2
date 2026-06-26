@@ -6,25 +6,25 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class HandycamEffect : MonoBehaviour
 {
-    [Tooltip("Material que usa el shader de la cámara en mano")]
+    [Tooltip("material que usa el shader de la camara en mano")]
     public Material effectMaterial;
 
-    [Tooltip("Tecla para encender/apagar el modo cámara")]
+    [Tooltip("tecla para encender/apagar el modo cámara")]
     public KeyCode toggleKey = KeyCode.C;
 
-    [Tooltip("Qué tan rápido entra/sale del efecto")]
+    [Tooltip("qué tan rapido entra/sale del efecto")]
     public float transitionSpeed = 6f;
 
     private bool isOn = false;
-    private float amount = 0f; // 0 = apagado, 1 = encendido
+    private float amount = 0f; // 0 = apagado, 1 = prendido
 
     private void Update()
     {
-        // La tecla alterna entre prendido y apagado
+        // la tecla alterna entre prendido y apagado
         if (Input.GetKeyDown(toggleKey))
             isOn = !isOn;
 
-        // Movemos "amount" suavemente hacia el objetivo (1 o 0)
+        // movemos "amount" suavemente hacia el objetivo (1 o 0)
         float target = isOn ? 1f : 0f;
         amount = Mathf.MoveTowards(amount, target, transitionSpeed * Time.deltaTime);
     }
@@ -37,7 +37,7 @@ public class HandycamEffect : MonoBehaviour
             return;
         }
 
-        // Le pasamos al shader si la cámara está encendida (0..1)
+        // le pasamos al shader si la cámara está encendida (0..1)
         effectMaterial.SetFloat("_CameraOn", amount);
         Graphics.Blit(src, dest, effectMaterial);
     }
