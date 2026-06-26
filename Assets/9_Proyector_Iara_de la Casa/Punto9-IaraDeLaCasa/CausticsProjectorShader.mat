@@ -30,8 +30,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DistortionStrength: 0.03588234
-    - _LightIntensity: 0
+    - _DistortionStrength: 0.03
+    - _LightIntensity: 0.6
     m_Colors:
     - _WaterLightColor: {r: 0, g: 0.7988542, b: 0.8584906, a: 0}
   m_BuildTextureStacks: []
