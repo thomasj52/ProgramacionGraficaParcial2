@@ -6,42 +6,54 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/AugustoGalban/TRABAJOFINAL/HUB_Portales.unity
+    guid: fcb251e830c413c489e5e41d9eb3db7d
+  - enabled: 1
+    path: Assets/AugustoGalban/TRABAJOFINAL/Escena_Televisores.unity
+    guid: e7f7021bdd4af894dbd27c167e6894a2
+  - enabled: 1
+    path: Assets/AugustoGalban/TRABAJOFINAL/Escena_Carta.unity
+    guid: e1b96940b5abecc40a84ff1ea7ad27ff
+  - enabled: 1
+    path: Assets/AugustoGalban/TRABAJOFINAL/Escena_Ciudad.unity
+    guid: 5b217fedb444d194992a65dd6c90c98f
+  - enabled: 0
     path: Assets/Scenes/MenuPrincipal.unity
     guid: b4b00516e114a9b47965208d22e38271
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Punto-1-GalbanBardeci.unity
     guid: eebebce27399a2d46b6f11bacb260de2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/2_Distance.unity
     guid: 7d0a2da5090f353408928dde55655277
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Punto-3-GalbanBardeci.unity
     guid: 0c56a2a8113b8cc4ead22d9a95917371
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/4_PostProcess.unity
     guid: 328420176b4f7fe4b8873d040815942b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Punto-5-Thomas-Lezcano.unity
     guid: dc0711c1384ca5a46ae230420f35bf1d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/6.UI.unity
     guid: 18b243c5a8177e74a83e48816a27e163
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/punto-7-Mozzone.unity
     guid: b0a55b392f18d7a488c8d7863de6b648
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/punto-8-Mozzone.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Proyector_9.unity
     guid: 70f21342777db5a4fb7a6b8d45473e88
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Proyector 10.unity
     guid: ec53d2728e33f12439a32b96bed6f19f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Punto-11-JuanHruby.unity
     guid: df46a23cbc83f0848b89730c535e68d2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Fin.unity
     guid: eb2cf6ed0a22cfb409d282a095732880
   m_configObjects: {}
